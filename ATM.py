@@ -1,7 +1,3 @@
-#balance : 초기 잔액을 설정하는 변수 초기화 해주세요 금액은 자기 맘대로
-#사용자로 부터 atm기계에 사용 목적에 맞는기능을 선택할수 있도록
-#가능 입력을 받는 기능을 구현해주세요.
-
 balance =  50000
 
 while True:
@@ -9,6 +5,11 @@ while True:
 
     if num == '4': # 4번 종료기능
         break #while문 종료 
+    if num == '1':
+        pass
+    if num == '2':
+        pass
+    if num == '3':
+        pass
 
-
-print(f'서비스를 종료합니다. 현재 잔액은 {balance} 입니다.')
+print(f'서비스를 종료합니다. 현재 잔액은 {balance}원 입니다.')
