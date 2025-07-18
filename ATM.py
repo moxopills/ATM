@@ -10,7 +10,10 @@ while True:
         balance += deposit_amount #balunce = balunce + deposit_amount 랑 같음
         print(f'입금하신 금액은 {deposit_amount}원 이고 현재 잔액은 {balance}원 입니다. ')
     if num == '2':
-        pass
+        withdrew_amount = int(input('출금할 금액을 입력해주세요. '))
+        withdrew_amount = min(balance,withdrew_amount)
+        balance -= withdrew_amount
+        print(f'출금하신 금액은{withdrew_amount}원 이고 현재 잔액은 {balance}원 입니다. ') 
     if num == '3':
         pass
 
